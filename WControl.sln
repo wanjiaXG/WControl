@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WControl", "WControl\WControl.csproj", "{843CF47F-BC42-4257-8E80-D9FA8C77AE81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlDemo", "ControlDemo\ControlDemo.csproj", "{0C32100A-0FB5-4B5C-8962-0278F713046C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{843CF47F-BC42-4257-8E80-D9FA8C77AE81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{843CF47F-BC42-4257-8E80-D9FA8C77AE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{843CF47F-BC42-4257-8E80-D9FA8C77AE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{843CF47F-BC42-4257-8E80-D9FA8C77AE81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C32100A-0FB5-4B5C-8962-0278F713046C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C32100A-0FB5-4B5C-8962-0278F713046C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C32100A-0FB5-4B5C-8962-0278F713046C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C32100A-0FB5-4B5C-8962-0278F713046C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
