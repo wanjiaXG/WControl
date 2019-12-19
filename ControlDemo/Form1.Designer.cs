@@ -28,13 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.cicleImageView1 = new wanjia.Controls.CicleImageView();
+            this.SuspendLayout();
+            // 
+            // cicleImageView1
+            // 
+            this.cicleImageView1.BackColor = System.Drawing.Color.Transparent;
+            this.cicleImageView1.Image = global::ControlDemo.Properties.Resources._1780106_jpg;
+            this.cicleImageView1.Location = new System.Drawing.Point(12, 12);
+            this.cicleImageView1.Name = "cicleImageView1";
+            this.cicleImageView1.Size = new System.Drawing.Size(229, 214);
+            this.cicleImageView1.TabIndex = 0;
+            this.cicleImageView1.Text = "cicleImageView1";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.cicleImageView1);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private wanjia.Controls.CicleImageView cicleImageView1;
     }
 }
 

@@ -1,6 +1,6 @@
-﻿namespace WControl
+﻿namespace wanjia.Controls
 {
-    partial class UserControl1
+    partial class BaseControl
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
         }
 
         #endregion
